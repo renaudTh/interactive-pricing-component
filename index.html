@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+
+  <header>
+    <div class="title">Simple, traffic-based pricing</div>
+    <div class='subtitle'>Sign-up for our 30-day trial. No credit card required.</div> 
+  </header>
+  <div class="component">
+    <div class='grid-item pageviews'><p><span id='pageNumber'>100k</span> pageviews</p></div>
+    <div class='grid-item bar'>
+      <input type="range" min="0" max="4" value="1" id="slider" step="1">
+    </div>
+    <div class='grid-item pricing'><p><span id='price'>$12</span> / month</p></div>
+    <div class='grid-item billing'> 
+      Monthly Billing
+      <label class="switch">
+        <input type="checkbox" id='checkBox'>
+        <span class="slider-round"></span>
+      </label>
+     <p>Yearly Billing</p><div class='discount'>25%</div> 
+    </div>
+    <div class='grid-item list'>
+      <ul>
+        <li>Unlimited websites</li>
+        <li>100% data ownership</li>
+        <li>Email reports</li>
+      </ul>
+    </div>
+    <div class='grid-item start'>
+      <button class='start-btn'>Start my trial</button>
+    </div>
+    <!-- $ /month
+
+   
+
+  
+
+    Start my trial -->
+
+  </div>
+  <script src="app.js"></script>
+ 
+  
+</body>
+</html>
