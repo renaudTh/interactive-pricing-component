@@ -2,7 +2,7 @@ body{
     background-color: hsl(230, 100%, 99%);
     background-image: url("./images/bg-pattern.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 75%;
     font-family: 'Manrope', sans-serif;
     color: hsl(225, 20%, 60%);
     font-size: 12px;
