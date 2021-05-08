@@ -33,6 +33,17 @@ body{
   cursor: pointer; /* Cursor on hover */
   border-radius: 50%;
 }
+#slider::-moz-range-thumb {
+  width: 30px; 
+  height: 30px;   
+  background-color:hsl(174, 86%, 45%);
+  background-image: url("./images/icon-slider.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 50%;
+}
+
 /* The switch - the box around the slider */
 .switch {
   position: relative;
